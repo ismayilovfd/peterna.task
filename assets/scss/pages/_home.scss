@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    background-color:black;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    z-index: 5;
+}
+section{
+    width: 85%;
+}
+#page{
+    width: 100%;
+    height: 600px;
+    background-color: rgb(52, 152, 177);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+      
+      .card{
+        background: none;
+        border: none;
+        color: white;
+
+        h1{
+            font-size: 80px;
+            font-weight: 800;
+            font-family:'Open Sans',sans-serif;
+        }
+        h5{
+            font-size: 40px;
+            font-weight: 600;
+        }
+        p{
+            font-size: 18px;
+        }
+        a{
+            background-color: rgb(216, 55, 55);
+            color: white;
+            font-size: 18px;
+            border: 0;
+            padding: 5px;
+        }
+        a:hover{
+            background-color: rgb(155, 28, 28);
+      }
+ }
+}
+ #services{
+    width: 100%;
+    height: 1100px;
+    background-image: url(data:image/webp;base64,UklGRjoDAABXRUJQVlA4IC4DAAAQLACdASoRAR8BPt1usFMopqUiohc5kRAbiWluvm3BG/NLfd/6/KX65i3/dbozyZObu+UClM4U/0lzAjtjWRUGiv1RdVlXZpypERMA/o2SZJk2khCpo2MoQe7kDqygUjMgP5DiY3ONUaryJGvEM0WFpJkqOxhWwOTI5hCUbLCEfH6JM4VCOIFw0DC+CGuyL6rStOg0WLhosXDRYt+YdyXcVYFtdl0WBl8lxpsbIvOFQX4O8Xwv9CKq0PLQGPIOWaoV9BaGi4ZETE++fQIidh9PqxP4rNOg0VFoipmzP+4C3qFiriR6lR1+9HES2YBn14D7D/49qsG/mhve3g+RNX307NMG9xhV4FK1DFPThHzx6cfoF0q8+RUDIzOM8Yh7VakFTfw6F5OYi+B++dj97UE1CPV/evtfzzKxrZ1Ae2XCv/Rg6s369ul8WjGa+EVJ+5DTgJHhosK90jxB86jbBXlAPaVl57VbibLAAP77rMlrBo4egUdbdJ9peXWnKLg/pI+v3a8hCtm1JZFPBd+VPa50FM4DyqpSPvbuu5V3AUzG5p4ep+29Nj9jTOAiYmPFKp+C0+MEBfujKKAKU2Egoaar4A904O2N+2dJfRpx1WaZwcIEL3gsuo2A/ngtdIJqyjCtInpNxJLEwR1BDC3Gk0ELgMEjXXuE2AAL3HIO5p9hqiAPtwDyYXqs4RP/h1wqSm2D7NodXTA1FQEaY4sUJFL3cVUOUnnKz8a4QAnhXggNbTOyCAAw89AMXU7B0tLiP0FtHLcDQNuk3ScrT4bTKG2zKZ2mKnmiaZc4dKyJWJsEkDtURE12it+R+uysY+LqHOb/EOaWALh6snY7828sa5bpTQYoe15c0hJIkkbG7tQAYxnCWhfJRS+uVRddXLGod5Vi2gy0vqR7cm8A79uIR1sCx8TdfrzKAhWVwjPUZQlgGKZCsI1n47GtTEVv6X8jak6GGVL1Wj6yfavv0YgOkxffHTzlCFBs6B4yhUAMyDIO8DVbBmbSGZdkEQkUU2DH1fzbkIqOuA+RatKOEVKgs5NEDiZQvPVYKGPvgQ8Qk2+YxQzaDoYKdaPC2/JwYAAA);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+     
+    .our-elements{
+        width: 80%;
+        height: 1000px;
+        // background-color: yellowgreen;
+        // padding-top: 30px;
+        // padding-bottom: 20px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 50px;
+
+         h1{
+            color:rgb(52, 152, 177);
+         }
+
+        .lorems{
+           .card{
+            background: none;
+            border: none;
+           }
+        }
+        .parts{
+            .card{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color:rgb(52, 152, 177);
+                color: white;
+
+                .card-body{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+
+                    h5{
+                        font-size: 24px;
+                        font-weight: 600;
+                    }
+                }
+            }
+            .card-group{
+                display: flex;
+                gap: 30px;
+                
+                span{
+                    font-size: 80px;   
+                }
+            }
+        }
+        .lorem{
+            .card{
+                background: none;
+                border: none;
+            }
+        }
+    }
+}
+#wall{
+    width: 100%;
+    background-color: rgb(52, 152, 177);
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+
+    .card{
+        background: none;
+        border: none;
+        color: white;
+
+        h1{
+            font-size: 60px;
+            font-weight: 500;
+        }
+        p{
+            font-size: 20px;
+            font-weight: 500;
+        }
+    }
+    
+}
